@@ -1,2 +1,2 @@
 from lilypod_dodge import resources
-impoprt lilypod_dodge
+import lilypod_dodge
