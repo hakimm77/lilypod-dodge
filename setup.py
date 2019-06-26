@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name='LilypodDodge',
+    name='Lilypod_Dodge',
     version='1.1.7',
     packages=['lilypod_dodge', 'lilypod_dodge/resources'],
 
