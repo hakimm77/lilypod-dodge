@@ -15,8 +15,8 @@ from pygame.time import get_ticks
 #
 
 pygame.init()
-pygame.mixer.music.load('resources\\music.wav')
-diesound = pygame.mixer.Sound('resources\\diesound.wav')
+pygame.mixer.music.load('resources/music.wav')
+diesound = pygame.mixer.Sound('resources/diesound.wav')
 pygame.mixer.Sound.set_volume(diesound, 0.05)
 duck = False
 coinsound = pygame.mixer.Sound('resources\\coinsound.wav')
