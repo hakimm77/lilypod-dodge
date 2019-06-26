@@ -6,7 +6,7 @@ Created 2 years ago as my first bigger python project, and the coding is therefo
 ```
 pip install lilypod
 ```
-Either call ./lilypod_dodge/lilypod_dodge.py or
+Either call ./lilypod_dodge/lilypod_dodge.py in terminall or
 ```python
 import lilypod_dodge.lilypod_dodge
 ```
