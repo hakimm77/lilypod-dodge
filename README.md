@@ -1,2 +1,8 @@
-# lilypod_dodge
-My first game. Horrible coding, keeping it here just to backup.
+# Lilypod Dodge (not uploaded yet)
+
+## Download
+
+```
+pip install lilypod
+```
+
