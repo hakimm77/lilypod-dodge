@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='Lilypod_Dodge',
-    version='1.1.7',
+    version='1.3',
     packages=['lilypod_dodge', 'lilypod_dodge/resources'],
 
     license='MIT',
