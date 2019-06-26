@@ -2,6 +2,7 @@ import pygame
 import random
 import time
 from pygame.time import get_ticks
+import os
 
 ##################################
 #
@@ -13,18 +14,20 @@ from pygame.time import get_ticks
 #
 #
 #
+path_to_module = os.path.dirname(__file__)
 
+datasets_path = os.path.join(path_to_module, "resources", "datasets")
 pygame.init()
-pygame.mixer.music.load('resources/music.wav')
-diesound = pygame.mixer.Sound('resources/diesound.wav')
+pygame.mixer.music.load(os.path.join(path_to_module, "resources", "music.wav"))
+diesound = pygame.mixer.Sound(os.path.join(path_to_module, "resources", "diesound.wav"))
 pygame.mixer.Sound.set_volume(diesound, 0.05)
 duck = False
-coinsound = pygame.mixer.Sound('resources\\coinsound.wav')
+coinsound = pygame.mixer.Sound(os.path.join(path_to_module, "resources", "coinsound.wav"))
 
 dead_duck = False
-grass = pygame.image.load('resources\\grass.png')
-duck = pygame.image.load('resources\\duck.png')
-coin_image = pygame.image.load('resources\\coin.png')
+grass = pygame.image.load(os.path.join(path_to_module, "resources", "grass.png"))
+duck = pygame.image.load(os.path.join(path_to_module, "resources", "duck.png"))
+coin_image = pygame.image.load(os.path.join(path_to_module, "resources", "coin.png"))
 font = pygame.font.SysFont(None, 30)
 
 last_pressed = ''
@@ -34,7 +37,7 @@ laser = False
 duck_x = 0
 duck_y = 0
 running = False
-transformed_duck = pygame.transform.rotate((pygame.image.load('resources\\duck.png')), 180)
+transformed_duck = pygame.transform.rotate((pygame.image.load(os.path.join(path_to_module, "resources", "duck.png"))), 180)
 fall = 0
 where_big_block = 0
 amount = 0
@@ -46,7 +49,7 @@ fall1 = 0
 running1 = False
 amount1 = 0
 where_coin1 = 0
-lily = pygame.image.load('resources\\lily.png')
+lily = pygame.image.load(os.path.join(path_to_module, "resources", "lily.png"))
 picture = lily
 clock = pygame.time.Clock()
 width = 800
