@@ -1,5 +1,5 @@
 # Lilypod Dodge
-Created 2 years ago as my first bigger python project, and the coding is therefore horrible. Posted only for documentation and availability.
+Created 2107 as my first bigger python project, thus horrible coding. 
 
 ## Download
 
