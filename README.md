@@ -2,7 +2,7 @@
 First bigger python project, saved for nostalgia. 
 
 ## Run
-Clone and ./lilypod_dodge/lilypod_dodge.py
+Clone and python -m lilypod_dodge.lilypod_dodge
 
   
 
