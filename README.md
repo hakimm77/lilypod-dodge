@@ -1,12 +1,8 @@
 # Lilypod Dodge
-First bigger python project, saved for nostalgia. 
+First bigger python project, saved for nostalgia. Shoot other ducks, and avoid the lilypods coming from upstream!
 
 ## Run
-Clone and python -m lilypod_dodge.lilypod_dodge
-
-  
-
-to start the program 
+`python -m lilypod_dodge.lilypod_dodge`
 
 ## Bugs
 Lilypods will sometimes spawn in middle of map.
